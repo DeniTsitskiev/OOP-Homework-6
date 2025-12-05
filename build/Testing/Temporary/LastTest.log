@@ -1,0 +1,269 @@
+Start testing: Dec 05 19:42 UTC
+----------------------------------------------------------
+1/5 Testing: Laboratory_6_test_npc
+1/5 Test: Laboratory_6_test_npc
+Command: "/app/build/Laboratory_6_test_npc"
+Directory: /app/build
+"Laboratory_6_test_npc" start time: Dec 05 19:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from /app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from NpcTest
+[ RUN      ] NpcTest.CreateKnight
+[       OK ] NpcTest.CreateKnight (0 ms)
+[ RUN      ] NpcTest.CreateDruid
+[       OK ] NpcTest.CreateDruid (0 ms)
+[ RUN      ] NpcTest.CreateElf
+[       OK ] NpcTest.CreateElf (0 ms)
+[ RUN      ] NpcTest.DistanceCalculation
+[       OK ] NpcTest.DistanceCalculation (0 ms)
+[ RUN      ] NpcTest.DistanceSamePosition
+[       OK ] NpcTest.DistanceSamePosition (0 ms)
+[ RUN      ] NpcTest.DistanceSymmetric
+[       OK ] NpcTest.DistanceSymmetric (0 ms)
+[ RUN      ] NpcTest.BoundaryCoordinates
+[       OK ] NpcTest.BoundaryCoordinates (0 ms)
+[----------] 7 tests from NpcTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Laboratory_6_test_npc" end time: Dec 05 19:42 UTC
+"Laboratory_6_test_npc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: Laboratory_6_test_factory
+2/5 Test: Laboratory_6_test_factory
+Command: "/app/build/Laboratory_6_test_factory"
+Directory: /app/build
+"Laboratory_6_test_factory" start time: Dec 05 19:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from /app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from FactoryTest
+[ RUN      ] FactoryTest.CreateKnight
+[       OK ] FactoryTest.CreateKnight (0 ms)
+[ RUN      ] FactoryTest.CreateDruid
+[       OK ] FactoryTest.CreateDruid (0 ms)
+[ RUN      ] FactoryTest.CreateElf
+[       OK ] FactoryTest.CreateElf (0 ms)
+[ RUN      ] FactoryTest.CreateInvalidType
+[       OK ] FactoryTest.CreateInvalidType (0 ms)
+[ RUN      ] FactoryTest.CreateFromStringKnight
+[       OK ] FactoryTest.CreateFromStringKnight (0 ms)
+[ RUN      ] FactoryTest.CreateFromStringDruid
+[       OK ] FactoryTest.CreateFromStringDruid (0 ms)
+[ RUN      ] FactoryTest.CreateFromStringElf
+[       OK ] FactoryTest.CreateFromStringElf (0 ms)
+[ RUN      ] FactoryTest.CreateFromStringInvalidFormat
+[       OK ] FactoryTest.CreateFromStringInvalidFormat (0 ms)
+[ RUN      ] FactoryTest.CreateFromStringInvalidType
+[       OK ] FactoryTest.CreateFromStringInvalidType (0 ms)
+[ RUN      ] FactoryTest.CreateFromStringEmptyLine
+[       OK ] FactoryTest.CreateFromStringEmptyLine (0 ms)
+[----------] 10 tests from FactoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Laboratory_6_test_factory" end time: Dec 05 19:42 UTC
+"Laboratory_6_test_factory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Laboratory_6_test_arena
+3/5 Test: Laboratory_6_test_arena
+Command: "/app/build/Laboratory_6_test_arena"
+Directory: /app/build
+"Laboratory_6_test_arena" start time: Dec 05 19:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from /app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 13 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 13 tests from ArenaTest
+[ RUN      ] ArenaTest.CreateArena
+[       OK ] ArenaTest.CreateArena (0 ms)
+[ RUN      ] ArenaTest.CreateArenaInvalidSize
+[       OK ] ArenaTest.CreateArenaInvalidSize (0 ms)
+[ RUN      ] ArenaTest.AddNpc
+[       OK ] ArenaTest.AddNpc (0 ms)
+[ RUN      ] ArenaTest.AddMultipleNpcs
+[       OK ] ArenaTest.AddMultipleNpcs (0 ms)
+[ RUN      ] ArenaTest.AddNpcDuplicateName
+[       OK ] ArenaTest.AddNpcDuplicateName (0 ms)
+[ RUN      ] ArenaTest.AddNpcOutOfBounds
+[       OK ] ArenaTest.AddNpcOutOfBounds (0 ms)
+[ RUN      ] ArenaTest.ClearArena
+[       OK ] ArenaTest.ClearArena (0 ms)
+[ RUN      ] ArenaTest.SaveToFile
+[       OK ] ArenaTest.SaveToFile (12 ms)
+[ RUN      ] ArenaTest.LoadFromFile
+[       OK ] ArenaTest.LoadFromFile (14 ms)
+[ RUN      ] ArenaTest.LoadFromNonExistentFile
+[       OK ] ArenaTest.LoadFromNonExistentFile (0 ms)
+[ RUN      ] ArenaTest.SaveAndLoadRoundtrip
+[       OK ] ArenaTest.SaveAndLoadRoundtrip (13 ms)
+[ RUN      ] ArenaTest.AddObserver
+[       OK ] ArenaTest.AddObserver (0 ms)
+[ RUN      ] ArenaTest.AddFileObserver
+[       OK ] ArenaTest.AddFileObserver (0 ms)
+[----------] 13 tests from ArenaTest (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 1 test suite ran. (41 ms total)
+[  PASSED  ] 13 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"Laboratory_6_test_arena" end time: Dec 05 19:42 UTC
+"Laboratory_6_test_arena" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: Laboratory_6_test_combat
+4/5 Test: Laboratory_6_test_combat
+Command: "/app/build/Laboratory_6_test_combat"
+Directory: /app/build
+"Laboratory_6_test_combat" start time: Dec 05 19:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from /app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 13 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 13 tests from CombatTest
+[ RUN      ] CombatTest.KnightVsKnight
+[       OK ] CombatTest.KnightVsKnight (0 ms)
+[ RUN      ] CombatTest.KnightVsElf
+[       OK ] CombatTest.KnightVsElf (0 ms)
+[ RUN      ] CombatTest.KnightVsDruid
+[       OK ] CombatTest.KnightVsDruid (0 ms)
+[ RUN      ] CombatTest.DruidVsDruid
+[       OK ] CombatTest.DruidVsDruid (0 ms)
+[ RUN      ] CombatTest.ElfVsDruid
+[       OK ] CombatTest.ElfVsDruid (0 ms)
+[ RUN      ] CombatTest.ElfVsKnight
+[       OK ] CombatTest.ElfVsKnight (0 ms)
+[ RUN      ] CombatTest.ElfVsElf
+[       OK ] CombatTest.ElfVsElf (0 ms)
+[ RUN      ] CombatTest.BattleOutOfRange
+[       OK ] CombatTest.BattleOutOfRange (0 ms)
+[ RUN      ] CombatTest.BattleInRange
+[BATTLE] Elf1 (Elf) and Knight1 (Knight) killed each other
+[       OK ] CombatTest.BattleInRange (0 ms)
+[ RUN      ] CombatTest.MutualKill
+[BATTLE] Elf1 (Elf) and Knight1 (Knight) killed each other
+[       OK ] CombatTest.MutualKill (0 ms)
+[ RUN      ] CombatTest.ComplexBattle
+[BATTLE] Elf1 (Elf) killed Druid1 (Druid)
+[BATTLE] Elf1 (Elf) and Knight1 (Knight) killed each other
+[BATTLE] Elf1 (Elf) and Knight2 (Knight) killed each other
+[       OK ] CombatTest.ComplexBattle (0 ms)
+[ RUN      ] CombatTest.KnightsSurviveAlone
+[       OK ] CombatTest.KnightsSurviveAlone (0 ms)
+[ RUN      ] CombatTest.FileObserverLogging
+[       OK ] CombatTest.FileObserverLogging (11 ms)
+[----------] 13 tests from CombatTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 1 test suite ran. (11 ms total)
+[  PASSED  ] 13 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Laboratory_6_test_combat" end time: Dec 05 19:42 UTC
+"Laboratory_6_test_combat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Laboratory_6_test_file_loading
+5/5 Test: Laboratory_6_test_file_loading
+Command: "/app/build/Laboratory_6_test_file_loading"
+Directory: /app/build
+"Laboratory_6_test_file_loading" start time: Dec 05 19:42 UTC
+Output:
+----------------------------------------------------------
+Running main() from /app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from FileLoadingTest
+[ RUN      ] FileLoadingTest.LoadRealFileAndVerify
+[       OK ] FileLoadingTest.LoadRealFileAndVerify (1 ms)
+[ RUN      ] FileLoadingTest.LoadAndPrintNpcs
+
+=== Загрузка NPC из файла test_data_npcs.txt ===
+Загружено NPC: 5
+
+Список загруженных NPC:
+NPC Type: Knight, Name: Galahad, Position: (200, 300)
+NPC Type: Druid, Name: Gandalf, Position: (400, 450)
+NPC Type: Knight, Name: Lancelot, Position: (100, 200)
+NPC Type: Elf, Name: Legolas, Position: (50, 75)
+NPC Type: Druid, Name: Merlin, Position: (150, 250)
+[       OK ] FileLoadingTest.LoadAndPrintNpcs (1 ms)
+[ RUN      ] FileLoadingTest.LoadAndTestBattle
+
+=== Тест боя с загруженными NPC ===
+Начальное количество NPC: 5
+
+Запуск боя с дальностью 200 метров...
+[BATTLE] Lancelot (Knight) and Legolas (Elf) killed each other
+Количество выживших: 3
+
+Выжившие:
+NPC Type: Knight, Name: Galahad, Position: (200, 300)
+NPC Type: Druid, Name: Gandalf, Position: (400, 450)
+NPC Type: Druid, Name: Merlin, Position: (150, 250)
+[       OK ] FileLoadingTest.LoadAndTestBattle (1 ms)
+[ RUN      ] FileLoadingTest.LoadSaveAndReload
+
+=== Проверка сохранения/загрузки ===
+Данные успешно сохранены и загружены обратно!
+NPC Type: Knight, Name: Galahad, Position: (200, 300)
+NPC Type: Druid, Name: Gandalf, Position: (400, 450)
+NPC Type: Knight, Name: Lancelot, Position: (100, 200)
+NPC Type: Elf, Name: Legolas, Position: (50, 75)
+NPC Type: Druid, Name: Merlin, Position: (150, 250)
+[       OK ] FileLoadingTest.LoadSaveAndReload (14 ms)
+[ RUN      ] FileLoadingTest.VerifySpecificNpcData
+[       OK ] FileLoadingTest.VerifySpecificNpcData (1 ms)
+[ RUN      ] FileLoadingTest.BattleWithLoadedNpcs
+
+=== Детальный тест боя ===
+Загружено NPC: 5
+
+Бой с дальностью 100 метров (только близкие NPC):
+
+Выжившие:
+NPC Type: Knight, Name: Galahad, Position: (200, 300)
+NPC Type: Druid, Name: Gandalf, Position: (400, 450)
+NPC Type: Knight, Name: Lancelot, Position: (100, 200)
+NPC Type: Elf, Name: Legolas, Position: (50, 75)
+NPC Type: Druid, Name: Merlin, Position: (150, 250)
+Осталось NPC: 5
+[       OK ] FileLoadingTest.BattleWithLoadedNpcs (0 ms)
+[----------] 6 tests from FileLoadingTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (20 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Laboratory_6_test_file_loading" end time: Dec 05 19:42 UTC
+"Laboratory_6_test_file_loading" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 05 19:42 UTC

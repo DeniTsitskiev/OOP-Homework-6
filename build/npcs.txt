@@ -1,0 +1,6 @@
+Elf Aragorn 130 130
+Knight Galahad 150 150
+Druid Gandalf 110 110
+Knight Lancelot 100 100
+Elf Legolas 200 200
+Druid Merlin 120 120

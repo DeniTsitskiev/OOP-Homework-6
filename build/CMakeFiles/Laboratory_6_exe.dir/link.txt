@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -Wall -Wextra CMakeFiles/Laboratory_6_exe.dir/main.cpp.o -o Laboratory_6_exe  libLaboratory_6_lib.a 

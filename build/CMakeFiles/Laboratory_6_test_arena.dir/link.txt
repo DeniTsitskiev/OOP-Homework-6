@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -Wall -Wextra CMakeFiles/Laboratory_6_test_arena.dir/tests/test_arena.cpp.o -o Laboratory_6_test_arena  libLaboratory_6_lib.a lib/libgtest_main.a lib/libgtest.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLaboratory_6_lib.a CMakeFiles/Laboratory_6_lib.dir/src/npc.cpp.o CMakeFiles/Laboratory_6_lib.dir/src/knight.cpp.o CMakeFiles/Laboratory_6_lib.dir/src/druid.cpp.o CMakeFiles/Laboratory_6_lib.dir/src/elf.cpp.o CMakeFiles/Laboratory_6_lib.dir/src/factory.cpp.o CMakeFiles/Laboratory_6_lib.dir/src/arena.cpp.o CMakeFiles/Laboratory_6_lib.dir/src/combat_visitor.cpp.o
+/usr/bin/ranlib libLaboratory_6_lib.a

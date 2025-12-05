@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -Wall -Wextra CMakeFiles/Laboratory_6_test_file_loading.dir/tests/test_file_loading.cpp.o -o Laboratory_6_test_file_loading  libLaboratory_6_lib.a lib/libgtest_main.a lib/libgtest.a 

@@ -1,0 +1,6 @@
+Laboratory_6_test_npc 3 0.00240225
+Laboratory_6_test_factory 3 0.00286366
+Laboratory_6_test_arena 3 0.0161711
+Laboratory_6_test_combat 3 0.00617086
+Laboratory_6_test_file_loading 3 0.00895953
+---

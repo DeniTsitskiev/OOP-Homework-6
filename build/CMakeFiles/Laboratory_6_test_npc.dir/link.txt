@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -Wall -Wextra CMakeFiles/Laboratory_6_test_npc.dir/tests/test_npc.cpp.o -o Laboratory_6_test_npc  libLaboratory_6_lib.a lib/libgtest_main.a lib/libgtest.a 
